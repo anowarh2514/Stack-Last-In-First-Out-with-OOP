@@ -1,0 +1,15 @@
+from Stack_LIFO import Stack
+
+s = Stack()
+print(s.is_empty())
+s.push("M")
+s.push("O")
+s.push("N")
+s.push("I")
+s.push("A")
+s.push("S")
+print(s.get_stack())
+s.pop()
+print (s.get_stack())
+print(s.peek())
+print(s.is_empty())
